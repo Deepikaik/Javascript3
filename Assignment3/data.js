@@ -10,7 +10,7 @@ function getUsers(){
     let rows=""
     for (user of users){
         if(user.gender ==="Female"){
-        rows=rows+`<tr>
+        rows= rows+`<tr>
         <td>${user.id}</td>
         <td>${user.name}</td>
         <td>${user.gender}</td>
