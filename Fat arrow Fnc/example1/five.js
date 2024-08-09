@@ -1,7 +1,7 @@
-/*let wish=name=>"hello! Mr. "+name;
-console.log(wish ("rahul"))*/
+let wish=name=>"hello! Mrr. "+name;
+console.log(wish ("rahul"))
 
-function wish(name){
+/*function wish(name){                  or let wish=function(name){}
     return("hello! Mr. "+name)
 }
-console.log(wish("rahul"))
+console.log(wish("rahul"))*/
