@@ -56,6 +56,7 @@ while(i<=employees.length-1)
     <td>${employees[i].name}</td>
     <td>${employees[i].sal}</td>
     </tr>`
+    i++
 }*/
 
 
