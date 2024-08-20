@@ -23,13 +23,23 @@ let users=[{"id":1,"name":"Koo","gender":"Female","image":"http://dummyimage.com
 function displayUsers(){
     //alert("GA")
     let rows=""
-    for (user of users){
+
+    users.forEach((user)=>{
+      rows+=`<tr>
+      <td>${user.id}</td>
+      <td>${user.name.toUpperCase()}</td>
+      <td>${user.gender}</td>
+      <td>${user.image}</td>
+      </tr>`
+    })
+
+    /*for (user of users){
       rows+=`<tr>
       <td>${user.id}</td>
       <td>${user.name}</td>
       <td>${user.gender}</td>
       <td>${user.image}</td>
       </tr>`
-    }
+    }*/
     document.getElementById("apiData").innerHTML=rows
 }
